@@ -11,7 +11,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["https://github-landing-clone.vercel.app/"],
+    origin: ["https://github-landing-clone.vercel.app"],
   })
 );
 
