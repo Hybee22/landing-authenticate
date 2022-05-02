@@ -18,7 +18,7 @@ app.use(
 app.use(json());
 app.use(urlencoded({ extended: false }));
 
-app.get("/test", (req, res) => {
+app.get("/", (req, res) => {
   return res.json({ test: true });
 });
 
